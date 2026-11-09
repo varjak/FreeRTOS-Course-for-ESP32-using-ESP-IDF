@@ -13,7 +13,7 @@
 #include "./main/Day_13_Avoiding_Priority_Inversion/day13.h"
 #include "./main/Day_14_Hands_on_Mini_Project_UART_Logger_with_Mutex/day14.h"
 #include "./main/Day_15_Event_Groups/day15.h"
-
+#include "./main/Day_16_Task_Notifications/day16.h"
 #include "./main/Day_17_Stream_Buffers_and_Message_Buffers/day17.h"
 #include "./main/Day_18_Software_Timers/day18.h"
 #include "./main/Day_19_Memory_Management_in_FreeRTOS/day19.h"
@@ -45,6 +45,7 @@ void app_main() {
         case 13: day13_run(); break;
         case 14: day14_run(); break;
         case 15: day15_run(); break;
+        case 16: day16_run(); break;
         case 17: day17_run(); break;
         case 18: day18_run(); break;
         case 19: day19_run(); break;

@@ -12,6 +12,9 @@ static void sensor_sampling(void *pvParameters) {
         vTaskDelay(pdMS_TO_TICKS(SAMPLING_DELAY));
     }
 }
+
+
+
 static void blink_LED(void *pvParameters) {
     gpio_reset_pin(LED_GPIO);
     gpio_set_direction(LED_GPIO, GPIO_MODE_OUTPUT);
