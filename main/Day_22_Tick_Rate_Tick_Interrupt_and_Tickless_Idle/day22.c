@@ -86,5 +86,3 @@ void day22_run() {
     xTaskCreate(tick_consumer_task, "TickConsumer", 2048, NULL, 6, &s_tick_task);
     ESP_LOGI(TAG, "Tick hook demo started. TICK_RATE_HZ=%d, tick=%d ms", configTICK_RATE_HZ, (int)portTICK_PERIOD_MS);
 }
-
-// vApplicationTickHook is not being triggered. See problems in day21.c
