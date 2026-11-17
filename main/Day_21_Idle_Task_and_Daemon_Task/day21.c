@@ -33,9 +33,7 @@ static inline void toggle_led(const gpio_num_t pin) {
     gpio_set_level(pin, !gpio_get_level(pin));
 }
 
-// It seems the idle hook didn't work. Probably has to be configured in menuconfig. Tried this but didn't work:
-// idf.py menuconfig: / configUSE_IDLE_HOOK > enable and  configUSE_Tick_HOOK > enable
-// Printscreen is available for future debugging
+// I had to enable FREERTOS_USE_IDLE_HOOK in menuconfig (searched for "hook")
 void vApplicationIdleHook(void) {
     static int counter = 0;
     counter++;
@@ -62,10 +60,4 @@ void day21_run() {
     }
 }
 
-// Problems:
-
-// On Best practices: FreeRTOS ticks are not hardware? I thought it was a timer controler in ESP32 that issued tick interupts,
-// that were handled by tick hooks in FreeRTOS. If not, how different are hardware timers and esp_timer then?
-
-// Cannot make idle hooks work
 

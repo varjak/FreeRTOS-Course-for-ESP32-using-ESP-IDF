@@ -26,7 +26,7 @@
 #include "./main/Day_26_Real_Time_Debugging_with_FreeRTOS_Trace/day26.h"
 #include "./main/Day_27_Handling_Errors_and_Watchdogs/day27.h"
 #include "./main/Day_28_Real_Time_Performance_Optimizations/day28.h"
-#define DAY 22
+#define DAY 10
 
 
 void app_main() {
