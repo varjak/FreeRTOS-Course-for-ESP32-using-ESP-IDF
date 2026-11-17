@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "day1and2.h"
+#include "./main/Day_03_Scheduling_and_Core_Affinity/day3.h"
 
 
 void print(void *pvParameters) {

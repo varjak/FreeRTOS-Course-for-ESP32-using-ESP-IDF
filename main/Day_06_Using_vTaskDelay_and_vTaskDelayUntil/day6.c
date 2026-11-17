@@ -1,4 +1,4 @@
-#include "./main/Day_6_Using_vTaskDelay_and_vTaskDelayUntil/day6.h"
+#include "./main/Day_06_Using_vTaskDelay_and_vTaskDelayUntil/day6.h"
 #include "freertos/FreeRTOS.h"
 #include "driver/gpio.h"
 #define LED_GPIO GPIO_NUM_22

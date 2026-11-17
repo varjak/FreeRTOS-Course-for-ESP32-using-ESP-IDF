@@ -1,4 +1,4 @@
-#include "./main/Day_7_Blinking_Two_LEDs_with_Two_Tasks/day7.h"
+#include "./main/Day_07_Blinking_Two_LEDs_with_Two_Tasks/day7.h"
 
 #include "freertos/FreeRTOS.h"
 #include "driver/gpio.h"
