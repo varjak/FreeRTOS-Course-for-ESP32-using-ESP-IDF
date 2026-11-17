@@ -4,7 +4,7 @@
 #include "freertos/task.h"
 #define TAG "DAY23"
 
-// Had to enable in menuconfig (Component > FreeRTOS > Kernel):
+// Had to enable in menuconfig (Component config > FreeRTOS > Kernel):
 // configUSE_TRACE_FACILITY
 // configUSE_STATS_FORMATTING_FUNCTIONS
 // configGENERATE_RUN_TIME_STATS
