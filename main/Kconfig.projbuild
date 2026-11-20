@@ -1,0 +1,8 @@
+menu "Course"
+    config COURSE_DAY
+        int "Day to build and run"
+        range 1 28
+        default 1
+        help
+            Only the component for this day is compiled and linked
+endmenu
